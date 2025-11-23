@@ -5,3 +5,7 @@ In this exercise we will connect to a [WebSocket](https://ably.com/topic/websock
 ## API Client
 
 We will make use of a Websocket API client you can find on [GitHub](https://github.com/qstarsit/client@latest). Make sure you have the API client included in your project with `go get github.com/qstarsit/client@latest`.
+
+## Manual HTTP Connection
+
+Don't want to use the provided API client? You can find a reference to a manual implementation of the websocket connection at https://github.com/qstarsit/client/blob/main/_manual.go
