@@ -1,22 +1,7 @@
-# Golang Starter
+# Go WebSockets
 
-Een minimale starter template voor Go-applicaties. **Vereist** Go 1.21 of hoger.
+In this exercise we will connect to a [WebSocket](https://ably.com/topic/websockets) server and exchange messages. A WebSocket begins as a normal HTTP request, you have to include the Upgrade header so the server knows to switch protocols and provide a full‑duplex channel (bidirectional communication) over the existing TCP connection.
 
-## **▶️ Applicatie draaien**
+## API Client
 
-Voer de applicatie uit met `go run main.go`
-
-## **🛠️ Applicatie bouwen**
-
-Je kan een binary op twee manieren bouwen:
-
-- Een hele directory: `go build .`
-- Één bestand: `go build main.go`
-
-Na het bouwen krijg je een executable in je huidige directory.
-
-## **💡 Tips**
-
-Met `go fmt ./...` formateer je code automatisch.
-
-Met `go vet ./...` detecteer je vaakvoorkomende fouten.
+We will make use of a Websocket API client you can find on [GitHub](https://github.com/qstarsit/client@latest). Make sure you have the API client included in your project with `go get github.com/qstarsit/client@latest`.
