@@ -9,7 +9,10 @@ func main() {
 
 	// TODO: Connect to the server via the client, save the connection to a variable and use it instead of PARAMETER in StartReading
 
-	done := make(chan struct{}) // This channel is used to block main from exiting before we reading is done
+	/* This channel is used to block main from exiting before reading is done
+	Without it, our main function will exit which causes our program to stop before all goroutines are finished.
+	*/
+	done := make(chan struct{}) 
 	client.StartReading(PARAMETER, func(msg string) {
 		// Implement a callback to handle incoming server messages
 	})
