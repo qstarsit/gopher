@@ -16,7 +16,7 @@ This project already has it added for you, check out the `go.mod` file. To simpl
 
 There's a Websocket server running at `gopher.arcetta.dev`. You need to connect to it via the API Client. Inside `main.go` you will find the imported module, now it's up to you to connect to the server and send/read messages.
 
-How to do so? Either read the original source code in the Github project above or find out what functions and methods are available via [pkg.go.dev](https://pkg.go.dev/github.com/qstarsit/client)
+How to do so? Either read the original source code in the Github project above or find out what functions and methods are available via the packages' [pkg.go.dev](https://pkg.go.dev/github.com/qstarsit/client) page
 
 ## Extra Challenge
 
