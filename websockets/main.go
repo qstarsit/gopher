@@ -16,8 +16,8 @@ func main() {
 
 	// Send messages to the websocket server from main thread via the client
 
-	/* This will block main from exiting so we can read messages.
-	Make sure to CTRL + C after reading all your messages or you will be waiting for a while :-)
+	/* This will block main from exiting so we ensure the StartReading goroutine continues running in the background.
+	Make sure to CTRL + C after the server sent back all your messages or you will be waiting for a while :-)
 	*/
 	<-done
 }
