@@ -23,6 +23,24 @@ func main() {
 	}
 
 	// Roep checkLeeftijd aan met een negatieve leeftijd en handel de error
+
+	// Maak een map[string]int waarbij de key (string) een naam uit de namen lijst bevat en de value (int) een leeftijd uit de leeftijden array is. 
+	var leeftijdMap <TYPE>;
+
+	// Implementeer de logica om de namen en leeftijden aan elkaar te koppelen.
+	for index, naam := range namen {
+		// Gebruik de index van namen om de leeftijd op te halen uit leeftijden
+	}
+
+
+	// Loop door de leeftijdMap heen en print de naam en leeftijd uit de map.
+	for VARIABLE, VARIABLE := range leeftijdMap {
+
+		// Tip: Zoek Sprintf op in pkg.go.dev!
+		message := fmt.Sprintf("%s is %d jaar oud", VARIABLE, VARIABLE) // naam, leeftijd
+
+		// Print message
+	}
 }
 
 // groet print een persoonlijke begroeting met naam en leeftijd
