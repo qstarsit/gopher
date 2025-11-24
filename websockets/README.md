@@ -8,7 +8,9 @@ The server will accept your request and open a socket with you for `10` seconds.
 
 ## API Client
 
-We will make use of a Websocket API client you can find on [GitHub](https://github.com/qstarsit/client@latest). Make sure you have the API client included in your project with `go get github.com/qstarsit/client@latest`.
+We will make use of a Websocket API client you can find on [GitHub](https://github.com/qstarsit/client@latest). Make sure you have the API client included in your project with `go get github.com/qstarsit/client@latest`. 
+
+This project already has it added for you, check out the `go.mod` file. To simply download the dependency as it's already declared, run `go mod download`.
 
 ## Task
 
