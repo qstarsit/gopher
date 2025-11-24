@@ -17,6 +17,6 @@ Na het bouwen krijg je een executable in je huidige directory.
 
 ## **💡 Tips**
 
-Met `go fmt ./...` formateer je code automatisch.
+Met `go fmt .` formateer je code automatisch [docs](https://go.dev/blog/gofmt)
 
-Met `go vet ./...` detecteer je vaakvoorkomende fouten.
+Met `go vet .` detecteer je vaakvoorkomende fouten [docs](https://pkg.go.dev/cmd/vet).
